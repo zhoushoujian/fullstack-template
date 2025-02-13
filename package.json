@@ -18,5 +18,5 @@
     "lint-staged": "^14.0.0",
     "typescript": "5.3.3"
   },
-  "repository": "https://github.com/zhoushoujian/server-performance-monitor"
+  "repository": "https://github.com/zhoushoujian/fullstack-template"
 }

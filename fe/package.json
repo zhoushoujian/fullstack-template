@@ -101,6 +101,5 @@
       "last 4 versions",
       "not ie <= 8"
     ]
-  },
-  "repository": "https://github.com/zhoushoujian/react-ts-scaffold"
+  }
 }
