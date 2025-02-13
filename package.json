@@ -1,0 +1,22 @@
+{
+  "name": "fullstack-template",
+  "description": "全栈开发模板，react18 + node18",
+  "version": "1.0.0",
+  "scripts": {
+    "codeCheck": "cd be && npm run codeCheck && cd .. && cd fe && npm run codeCheck",
+    "start:fe": "cd fe && npm run vite",
+    "start:be": "cd be && npm run start",
+    "build:fe": "cd fe && npm run vite:build",
+    "build:be": "cd be && npm run build",
+    "install:all": "pnpm install && cd fe && pnpm install && cd .. && cd be && pnpm install",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@szhou/eslint-config": "^1.4.12",
+    "@types/node": "^18.11.9",
+    "husky": "^7.0.4",
+    "lint-staged": "^14.0.0",
+    "typescript": "5.3.3"
+  },
+  "repository": "https://github.com/zhoushoujian/server-performance-monitor"
+}
