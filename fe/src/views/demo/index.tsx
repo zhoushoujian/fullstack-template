@@ -6,7 +6,7 @@ import { updateRedux } from '@/ducks/common';
 import { $getState, $dispatch } from '@/ducks/main';
 import { request } from '@/utils/request';
 import { IApiResponse } from '@/@types/common';
-import styles from './index.less';
+import styles from './index.module.less';
 
 console.log('get redux data => ', $getState().common.redux);
 
