@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "codeCheck": "cd be && npm run codeCheck && cd .. && cd fe && npm run codeCheck",
-    "start:fe": "cd fe && npm run vite",
+    "start:fe": "cd fe && npm run start",
     "start:be": "cd be && npm run start",
     "build:fe": "cd fe && npm run vite:build",
     "build:be": "cd be && npm run build",
